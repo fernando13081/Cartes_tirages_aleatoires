@@ -1,0 +1,24 @@
+<html>
+<head>
+<body>
+<script type= "text/python">
+import random
+import replit
+cartes = ["C1","CR","CD","CV","CX","C9","C8","C7","K1","KR","KD","KV","KX","K9","K8","K7","P1","PR","PD","PV","PX","P9","P8","P7","T1","TR","TD","TV","TX","T9","T8","T7"]
+random.shuffle(cartes)
+input("press enter pour montrer la carte suivante")
+for i in range(2): 
+    print(i,":",cartes[i])
+	display
+    input()
+    replit.clear()
+    print('')
+x = input ("rentre les cartes dans l'ordre, une à la fois.")
+separation= x.split()
+for n in range(0, 2):
+  print ("correcte")
+</script>
+<div id="display"></div>
+</body>
+</head>
+</html>
